@@ -3,7 +3,7 @@
 
  connect()
      .use(serveStatic(__dirname))
-     .listen(8080, () => console.log('Server running on 8080...'));
+     .listen(process.env.PORT || 8080, () => console.log('Server running on 8080...'));
 
 
 const Discord = require("discord.js");
