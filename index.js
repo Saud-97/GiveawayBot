@@ -1,3 +1,11 @@
+ var connect = require('connect');
+ var serveStatic = require('serve-static');
+
+ connect()
+     .use(serveStatic(__dirname))
+     .listen(8080, () => console.log('Server running on 8080...'));
+
+
 const Discord = require("discord.js");
 const client = new Discord.Client({ intents: 7753 });
 const fs = require("fs");
@@ -20,7 +28,6 @@ client.giveawaysManager = new GiveawaysManager(client, {
     }
   }
 });
-//Coded by ZeroSync on yt
 
 /* Load all events (discord based) */
 
@@ -84,5 +91,6 @@ fs.readdir("./slash/", (_err, files) => {
 });
 
 
+
 // Login through the client
-client.login(config.token);
+client.login(process.env.Token);

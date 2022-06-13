@@ -17,10 +17,12 @@
     "discordjs"
   ],
   "dependencies": {
+    "connect": "^3.7.0",
     "discord-giveaways": "^5.0.1",
     "discord.js": "^13.6.0",
     "ms": "^3.0.0-canary.1",
-    "parsec": "^2.0.2"
+    "parsec": "^2.0.2",
+    "serve-static": "^1.15.0"
   },
   "engines": {
     "node": "16.x"

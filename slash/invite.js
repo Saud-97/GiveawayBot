@@ -25,7 +25,7 @@ module.exports = {
     .setColor('#2F3136')
     .setTimestamp()
     .setFooter({
-        text: `Requested by ${interaction.user.username} | GiveawayBot™ v3 By ZeroSync`,
+        text: `Requested by ${interaction.user.username} | GiveawayBot™ v3 By S97`,
         iconURL: interaction.user.displayAvatarURL()
     })
     

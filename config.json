@@ -1,6 +1,5 @@
-{
-  "token": "BotTokenHere", 
-  "prefix": "PrefixHere",
-  "everyoneMention": false,
+{ 
+  "prefix": "-",
+  "everyoneMention": true,
   "hostedBy": true
 }
